@@ -1,0 +1,11 @@
+numpy
+scipy
+tqdm
+torchsummary
+open3d
+matplotlib
+ruamel.yaml
+tensorboard
+tensorboardX
+psutil
+gputil

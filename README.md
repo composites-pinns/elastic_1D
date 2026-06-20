@@ -58,9 +58,9 @@ pip install -r requirements.txt
 
 The workflow is organized around the solution of local homogenization problems using PINNs.
 
-```markdown
-![Local solution](figures/local_solution.png)
-```
+
+![Local solution](figures/ahm_pinns.png)
+
 
 ## Basic Usage
 
@@ -70,13 +70,10 @@ python main.py --mode train --method pinn --input_file configs/input.yaml
 
 ## Figures
 
-```markdown
-![Local solution](figures/local_solution.png)
 
-![Effective coefficient comparison](figures/effective_coefficients.png)
+![Local solution](figures/pinns_analy_homog_hetero_for_various_epsilons.png)
 
-![Error analysis](figures/error_analysis.png)
-```
+
 
 ## Citing
 
@@ -100,6 +97,4 @@ If you use this code, please cite the associated chapter:
 
 ## License
 
-This project is open source and available under the terms of the MIT License.
-
-See the [LICENSE](LICENSE) file for details.
+This project is open source and available under the MIT License.
